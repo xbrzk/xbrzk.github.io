@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOPOLIO</title>
+    <link rel="icon" type="image/png" href="img/favicon.png?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-logo">Xbrzki</h1>
+            <p class="loader-text">PORTFOLIO LOADING</p>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-pill">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="LogoMrzki">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+
+            <button id="tema" class="tema-btn" aria-label="Ganti tema">☀</button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-grid">
+
+            <div class="hero-teks">
+                <h1 class="muncul">Hi, I'm <span class="nama">Rizki</span></h1>
+                <h2 class="muncul delay-1"><span id="ketik"></span><span class="kursor"></span></h2>
+                <p class="deskripsi muncul delay-2">
+                    Halo! Saya suka ngoding dan bereksperimen dengan ide-ide baru.
+                    Bagi saya, setiap baris kode adalah cara untuk menghadirkan
+                    sesuatu yang bermanfaat dan keren di dunia digital.
+                </p>
+
+                <div class="tombol-grup muncul delay-3">
+                    <a href="#projects" class="tombol">Explore Work →</a>
+                    <a href="#" class="tombol tombol-putih">Download CV ⭳</a>
+                </div>
+
+                <p class="connect muncul delay-3">CONNECT</p>
+                <div class="sosial muncul delay-3">
+                    <a href="https://wa.me/62895408104500" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@labs" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/xb.rzki" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-foto muncul delay-2">
+                <img src="img/foto.jpg" alt="Foto Rizki" class="foto">
+                <div class="kartu-grup">
+                    <div class="kartu"><i class="fa-solid fa-graduation-cap"></i> Universitas Terbuka</div>
+                    <div class="kartu"><i class="fa-solid fa-code"></i> HTML, CSS, JavaScript</div>
+                    <div class="kartu"><i class="fa-solid fa-laptop-code"></i> Frontend Developer</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== ABOUT (hanya satu) ===== -->
+    <section class="about" id="about">
+        <div class="judul-lengket">
+            <p class="kecil">DISCOVER</p>
+            <h2 class="judul-seksi">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-foto muncul">
+                <img src="img/foto.jpg" alt="Foto Rizki">
+            </div>
+
+            <div class="about-isi">
+                <div class="dua-kolom">
+                    <div class="muncul delay-1">
+                        <h3>Who Am I</h3>
+                        <p>Saya seorang web developer pemula yang berfokus pada menciptakan tampilan dan pengalaman pengguna yang sederhana, cepat, dan fungsional.</p>
+                    </div>
+                    <div class="muncul delay-2">
+                        <h3>My Approach</h3>
+                        <p>Saya mengutamakan clean code, desain responsif, dan pengalaman pengguna yang intuitif dalam setiap proyek yang saya kerjakan.</p>
+                    </div>
+                </div>
+
+                <h3 class="detail-judul muncul">Personal Details</h3>
+                <div class="detail-grid muncul delay-1">
+                    <div><span>NAME</span><strong>Muhammad Rizky Anjani</strong></div>
+                    <div><span>PLACE OF BIRTH</span><strong>Jambi, Kota Jambi</strong></div>
+                    <div><span>PHONE</span><strong>0895408104500</strong></div>
+                    <div><span>INSTAGRAM</span><strong>@xb.rzki</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- ===== TEKS BERJALAN ===== -->
+    <section class="marquee">
+        <div class="marquee-baris kanan">
+            <div class="marquee-isi">
+                <span>Hello I'm Rizki</span><span>Hello I'm Rizki</span><span>Hello I'm Rizki</span><span>Hello I'm Rizki</span>
+                <span>Hello I'm Rizki</span><span>Hello I'm Rizki</span><span>Hello I'm Rizki</span><span>Hello I'm Rizki</span>
+            </div>
+        </div>
+        <div class="marquee-baris kiri">
+            <div class="marquee-isi">
+                <span>Frontend Web Developer</span><span>Frontend Web Developer</span><span>Frontend Web Developer</span><span>Frontend Web Developer</span>
+                <span>Frontend Web Developer</span><span>Frontend Web Developer</span><span>Frontend Web Developer</span><span>Frontend Web Developer</span>
+            </div>
+        </div>
+    </section>
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience" id="experience">
+        <p class="kecil">CAREER PATH</p>
+        <h2 class="judul-seksi">Work Experience</h2>
+
+               <div class="garis-waktu">
+            <div class="item kanan-item muncul">
+                <div class="titik"></div>
+                <div class="kartu-exp">
+                    <small>2025</small>
+                    <h3>Frontend Developer</h3>
+                    <h4>Proyek Portofolio Pribadi</h4>
+                    <p>Membangun website portofolio dari nol dengan HTML, CSS, dan JavaScript, lengkap dengan animasi, mode terang/gelap, dan tampilan responsif.</p>
+                    <div class="tag-grup">
+                        <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item kiri-item muncul">
+                <div class="titik"></div>
+                <div class="kartu-exp">
+                    <small>2025 - 2026</small>
+                    <h3>Web Developer</h3>
+                    <h4>Latihan Proyek Website</h4>
+                    <p>Mempelajari dasar pembuatan website, mulai dari struktur halaman, styling, sampai interaksi sederhana dengan JavaScript.</p>
+                    <div class="tag-grup">
+                        <span>HTML</span><span>CSS</span><span>RESPONSIVE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item kanan-item muncul">
+                <div class="titik"></div>
+                <div class="kartu-exp">
+                    <small>2026</small>
+                    <h3>Pelajar Coding</h3>
+                    <h4>Belajar Mandiri</h4>
+                    <p>Mulai belajar pemrograman web secara mandiri dan terus berlatih membuat proyek kecil setiap hari.</p>
+                    <div class="tag-grup">
+                        <span>VS CODE</span><span>GIT</span><span>GITHUB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+    <!-- ===== TECH STACK ===== -->
+    <section class="tech" id="tech">
+        <p class="kecil">SKILLS &amp; TOOLS</p>
+        <h2 class="judul-seksi">My Tech Stack</h2>
+
+        <div class="tech-baris muncul">
+            <div class="tech-label">
+                <h3>Frontend Languages</h3>
+                <p>Alat yang saya pakai untuk membangun tampilan website yang rapi dan responsif.</p>
+            </div>
+            <div class="tech-kartu">
+                <div><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                <div><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                <div><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div><i class="fa-solid fa-mobile-screen"></i><span>Responsive</span></div>
+            </div>
+        </div>
+
+        <div class="tech-baris muncul">
+            <div class="tech-label">
+                <h3>Tools</h3>
+                <p>Perangkat yang membantu saya menulis, menguji, dan mengelola kode.</p>
+            </div>
+            <div class="tech-kartu">
+                <div><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+                <div><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                <div><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                <div><i class="fa-solid fa-terminal"></i><span>Terminal</span></div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== ASISTEN AI ===== -->
+    <button id="ai-btn" class="ai-btn" aria-label="Buka asisten AI">
+        <i class="fa-regular fa-comment-dots"></i>
+        <span class="ai-badge">AI</span>
+    </button>
+
+    <div id="ai-panel" class="ai-panel">
+        <div class="ai-head">
+            <strong>Asisten Rizki</strong>
+            <button id="ai-tutup" aria-label="Tutup">✕</button>
+        </div>
+        <div id="ai-pesan" class="ai-pesan"></div>
+        <form id="ai-form" class="ai-form">
+            <input id="ai-input" type="text" placeholder="Tanya sesuatu..." autocomplete="off">
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
